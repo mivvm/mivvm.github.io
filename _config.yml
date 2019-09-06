@@ -8,8 +8,8 @@ subtitle:
 description: 明未为洺
 keywords: 明未为洺
 author: 明未为洺
-language:
-timezone:
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -87,3 +87,6 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+
+  

@@ -1,7 +1,10 @@
 ---
 title: jq插件扩展
 date: 2019-10-06 16:59:15
-tags: js,jq
+tags: [js, jq]
+categories: 
+- js
+- jq
 ---
 
 1. $.extend

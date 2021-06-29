@@ -1,7 +1,9 @@
 ---
 title: exports与module.exports
 date: 2019-07-28 14:36:07
-tags: node,js
+tags: [node, js]
+categories: 
+- node
 ---
 
 ### 环境

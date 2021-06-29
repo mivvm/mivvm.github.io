@@ -1,7 +1,9 @@
 ---
 title: Set和Map
 date: 2019-12-13 14:40:07
-tags: js, es6
+tags: [js, es6]
+categories: 
+- es6
 ---
 
 ### Set

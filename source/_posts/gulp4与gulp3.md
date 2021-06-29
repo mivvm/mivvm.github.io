@@ -1,7 +1,9 @@
 ---
 title: gulp4与gulp3
 date: 2019-08-11 18:09:51
-tags: gulp,js,css
+tags: [gulp, js, css]
+categories: 
+- gulp
 ---
 
 ### 踩坑记录

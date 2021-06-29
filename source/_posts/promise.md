@@ -1,7 +1,11 @@
 ---
 title: promise
 date: 2019-09-05 16:39:04
-tags: js,promise
+tags: [js, es6, promise]
+categories: 
+- js
+- es6
+- promise
 ---
 
 

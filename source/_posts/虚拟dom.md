@@ -1,7 +1,10 @@
 ---
 title: 虚拟dom
 date: 2020-01-25 10:54:37
-tags: js, vue, dom
+tags: [js, vue, dom]
+categories: 
+- js
+- vue
 ---
 
 1. 什么是虚拟dom

@@ -1,8 +1,9 @@
 ---
 title: Python之虚拟环境
 date: 2021-04-29 10:27:36
-tags: python
-
+tags: [python]
+categories: 
+- python
 ---
 
 ### 虚拟环境 virtualenv 

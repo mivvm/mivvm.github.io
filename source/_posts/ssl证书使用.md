@@ -1,7 +1,9 @@
 ---
 title: ssl证书使用
 date: 2019-05-27 18:40:20
-tags: ssl,域名,服务器，nginx
+tags: [ssl, 域名, 服务器, nginx]
+categories: 
+- ssl
 ---
 
 + 服务器WWW目录下新建SSL文件夹，将申请的证书复制进去

@@ -1,8 +1,10 @@
 ---
 title: tomcat安装细节
 date: 2019-06-19 15:08:53
-tag: java,tomcat
+tag: [java, tomcat]
 description: Tomcat 服务器是一个免费的开放源代码的Web 应用服务器，Tomcat是Apache 软件基金会（Apache Software Foundation）的Jakarta 项目中的一个核心项目，它早期的名称为catalina，后来由Apache、Sun 和其他一些公司及个人共同开发而成，并更名为Tomcat。
+categories: 
+- java
 
 ---
 
@@ -25,11 +27,11 @@ description: Tomcat 服务器是一个免费的开放源代码的Web 应用服�
 
     1.cmd输入java：
 
-  ​		![](tomcat/pic_2.png)
-  ​	
+  			![](tomcat/pic_2.png)
+  	
     2.cmd输入javac：
 
-  ​		![](tomcat/pic_3.png)
+  			![](tomcat/pic_3.png)
 
   
 

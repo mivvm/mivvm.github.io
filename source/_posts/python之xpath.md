@@ -1,8 +1,10 @@
 ---
 title: python之xpath
 date: 2019-06-04 16:19:08
-tags: python,xpath
+tags: [python, xpath]
 description: XPath 是一门在 XML 文档中查找信息的语言。XPath 可用来在 XML 文档中对元素和属性进行遍历。XPath 是 W3C XSLT 标准的主要元素，并且 XQuery 和 XPointer 都构建于 XPath 表达之上
+categories: 
+- python
 ---
 
 ### 干啥的

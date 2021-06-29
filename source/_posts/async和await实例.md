@@ -2,7 +2,10 @@
 layout: layout
 title: async和await实例
 date: 2019-09-12 17:15:26
-tags: js, promise,async,await
+tags: [js, promise, async, await]
+categories: 
+- js
+- es6
 ---
 
 

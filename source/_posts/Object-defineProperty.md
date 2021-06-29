@@ -1,7 +1,10 @@
 ---
 title: Object.defineProperty
 date: 2019-11-03 11:14:01
-tags: js
+tags: [js, js数据拦截]
+categories: 
+- js
+- vue
 ---
 
 参数：obj,prop,descriptor

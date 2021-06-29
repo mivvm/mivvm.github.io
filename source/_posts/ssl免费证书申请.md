@@ -1,7 +1,9 @@
 ---
 title: ssl免费证书使用流程
 date: 2019-05-27 17:21:20
-tags: ssl,域名
+tags: [ssl, 域名]
+categories: 
+- ssl
 ---
 
 + 购买免费证书

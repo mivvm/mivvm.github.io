@@ -2,8 +2,9 @@
 title: 前端小问题整理
 date: 2019-06-21 17:09:23
 description: 平常项目中碰到的css,js,html以及其他的小问题整理。
-tag: css,js,html
-
+tag: [css, js, html]
+categories: 
+- js
 ---
 
 ### rem函数

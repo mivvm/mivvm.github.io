@@ -1,7 +1,9 @@
 ---
 title: linux之常用目录命令
 date: 2019-06-12 19:44:52
-tags: linux
+tags: [linux]
+categories: 
+- linux
 ---
 
 	- touch 新建文件

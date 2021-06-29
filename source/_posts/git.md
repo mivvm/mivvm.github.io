@@ -1,7 +1,9 @@
 ---
 title: git
 date: 2019-04-15 10:30:59
-tags:  git
+tags: [git]
+categories: 
+- git
 ---
 
 ### git命令行常见问题

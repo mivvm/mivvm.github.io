@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="js,es6,promise,">
+  <meta name="keywords" content="js,es6,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Then,catch,all- 两者都会返回一个新的promise实例 - `catch`只会监测当前catch前面的`reject`函数，并不会监测后面的`reject`  all  - 1）只有`p1`、`p2`、`p3`的状态都变成`fulfilled`，`p`的状态才会变成`fulfilled`，此时`p1`、`p2`、`p3`的返回值组成一个数组，传递给`p`的回调函数。 - 2）只要`">
-<meta name="keywords" content="js,es6,promise">
+<meta name="description" content="为什么对象不支持for-of方法 因为for-of循环首先会向被访问对象请求一个迭代器对象，然后通过调用迭代器对象的next() 方法来遍历所有返回值。  打印对象发现 1234567var obj = &amp;#123;    a: 1&amp;#125;console.log(obj[Symbol.iterator])  //undefinedvar arr = [1,2,3]console.log(arr">
+<meta name="keywords" content="js,es6">
 <meta property="og:type" content="article">
-<meta property="og:title" content="promise">
-<meta property="og:url" content="http://www.mvvm.xin/2019/09/05/promise/index.html">
+<meta property="og:title" content="对象支持for-of方法">
+<meta property="og:url" content="http://www.mvvm.xin/2021/01/12/对象支持for-of方法/index.html">
 <meta property="og:site_name" content="明未为洺">
-<meta property="og:description" content="Then,catch,all- 两者都会返回一个新的promise实例 - `catch`只会监测当前catch前面的`reject`函数，并不会监测后面的`reject`  all  - 1）只有`p1`、`p2`、`p3`的状态都变成`fulfilled`，`p`的状态才会变成`fulfilled`，此时`p1`、`p2`、`p3`的返回值组成一个数组，传递给`p`的回调函数。 - 2）只要`">
+<meta property="og:description" content="为什么对象不支持for-of方法 因为for-of循环首先会向被访问对象请求一个迭代器对象，然后通过调用迭代器对象的next() 方法来遍历所有返回值。  打印对象发现 1234567var obj = &amp;#123;    a: 1&amp;#125;console.log(obj[Symbol.iterator])  //undefinedvar arr = [1,2,3]console.log(arr">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2021-06-29T09:14:18.922Z">
+<meta property="og:updated_time" content="2021-06-30T03:08:28.777Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="promise">
-<meta name="twitter:description" content="Then,catch,all- 两者都会返回一个新的promise实例 - `catch`只会监测当前catch前面的`reject`函数，并不会监测后面的`reject`  all  - 1）只有`p1`、`p2`、`p3`的状态都变成`fulfilled`，`p`的状态才会变成`fulfilled`，此时`p1`、`p2`、`p3`的返回值组成一个数组，传递给`p`的回调函数。 - 2）只要`">
+<meta name="twitter:title" content="对象支持for-of方法">
+<meta name="twitter:description" content="为什么对象不支持for-of方法 因为for-of循环首先会向被访问对象请求一个迭代器对象，然后通过调用迭代器对象的next() 方法来遍历所有返回值。  打印对象发现 1234567var obj = &amp;#123;    a: 1&amp;#125;console.log(obj[Symbol.iterator])  //undefinedvar arr = [1,2,3]console.log(arr">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://www.mvvm.xin/2019/09/05/promise/">
+  <link rel="canonical" href="http://www.mvvm.xin/2021/01/12/对象支持for-of方法/">
 
 
 
 
 
-  <title>promise | 明未为洺</title>
+  <title>对象支持for-of方法 | 明未为洺</title>
   
 
 
@@ -253,7 +253,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mvvm.xin/2019/09/05/promise/">
+    <link itemprop="mainEntityOfPage" href="http://www.mvvm.xin/2021/01/12/对象支持for-of方法/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="明未为洺">
@@ -270,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">promise</h1>
+          <h1 class="post-title" itemprop="name headline">对象支持for-of方法</h1>
         
 
         <div class="post-meta">
@@ -282,8 +282,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-05T16:39:04+08:00">
-                2019-09-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-12T10:53:56+08:00">
+                2021-01-12
               </time>
             
 
@@ -323,17 +323,6 @@
 
                 
                 
-                  ， 
-                
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/es6/promise/" itemprop="url" rel="index">
-                    <span itemprop="name">promise</span>
-                  </a>
-                </span>
-
-                
-                
               
             </span>
           
@@ -364,13 +353,12 @@
       
 
       
-        <h3 id="Then-catch-all"><a href="#Then-catch-all" class="headerlink" title="Then,catch,all"></a>Then,catch,all</h3><pre><code>- 两者都会返回一个新的promise实例
-- `catch`只会监测当前catch前面的`reject`函数，并不会监测后面的`reject`
-</code></pre><ul>
-<li>all  <pre><code>- 1）只有`p1`、`p2`、`p3`的状态都变成`fulfilled`，`p`的状态才会变成`fulfilled`，此时`p1`、`p2`、`p3`的返回值组成一个数组，传递给`p`的回调函数。
-- 2）只要`p1`、`p2`、`p3`之中有一个被`rejected`，`p`的状态就变成`rejected`，此时第一个被`reject`的实例的返回值，会传递给`p`的回调函数。
-</code></pre></li>
-</ul>
+        <p>为什么对象不支持<code>for-of</code>方法</p>
+<p>因为<code>for-of</code>循环首先会向被访问对象请求一个迭代器对象，然后通过调用<strong>迭代器</strong>对象的next() 方法来遍历所有返回值。 </p>
+<p>打印对象发现</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">    a: <span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(obj[<span class="built_in">Symbol</span>.iterator])  <span class="comment">//undefined</span></span><br><span class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="built_in">console</span>.log(arr[<span class="built_in">Symbol</span>.iterator])  <span class="comment">//ƒ values() &#123; [native code] &#125;</span></span><br><span class="line"><span class="comment">//发现对象本身或者原型链上不存在Symbol.iterator方法，所以不能一直用for-of遍历</span></span><br></pre></td></tr></table></figure>
+<p>人工添加一个<code>Symbol.iterator</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">obj[<span class="built_in">Symbol</span>.iterator]= <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> keys = <span class="built_in">Object</span>.keys(<span class="keyword">this</span>)</span><br><span class="line">    <span class="keyword">var</span> count = <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        next() &#123;</span><br><span class="line">            <span class="keyword">if</span>(count &lt; keys.length) &#123;</span><br><span class="line">                <span class="keyword">return</span> &#123;</span><br><span class="line">                    value: obj[keys[count++]],</span><br><span class="line">                    done: <span class="literal">false</span></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> &#123;<span class="attr">value</span>:<span class="literal">undefined</span>,<span class="attr">done</span>:<span class="literal">true</span>&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> o = obj[<span class="built_in">Symbol</span>.iterator]()</span><br><span class="line"><span class="built_in">console</span>.log(o.next())  <span class="comment">//&#123;value: 1, done: false&#125;</span></span><br><span class="line"><span class="built_in">console</span>.log(o.next())  <span class="comment">//&#123;value: undefined, done: true&#125;</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> x <span class="keyword">of</span> obj) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(x)  <span class="comment">//1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -392,8 +380,6 @@
           
             <a href="/tags/es6/" rel="tag"># es6</a>
           
-            <a href="/tags/promise/" rel="tag"># promise</a>
-          
         </div>
       
 
@@ -405,8 +391,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/08/22/函数节流/" rel="next" title="函数节流与函数防抖">
-                <i class="fa fa-chevron-left"></i> 函数节流与函数防抖
+              <a href="/2020/12/15/node-express服务器/" rel="next" title="node+express服务器">
+                <i class="fa fa-chevron-left"></i> node+express服务器
               </a>
             
           </div>
@@ -415,8 +401,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/09/12/async和await实例/" rel="prev" title="async和await实例">
-                async和await实例 <i class="fa fa-chevron-right"></i>
+              <a href="/2021/01/12/回流与重绘/" rel="prev" title="回流与重绘">
+                回流与重绘 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -469,17 +455,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -539,22 +516,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Then-catch-all"><span class="nav-number">1.</span> <span class="nav-text">Then,catch,all</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

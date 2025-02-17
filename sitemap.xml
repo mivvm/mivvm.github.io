@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/index.html</loc>
+    <loc>http://blob.mvvm.xin/tags/index.html</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/index.html</loc>
+    <loc>http://blob.mvvm.xin/categories/index.html</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/10/17/%E9%A5%BC%E5%9B%BE-%E7%8E%AF%E5%BD%A2%E5%9B%BE/</loc>
+    <loc>http://blob.mvvm.xin/2022/10/17/%E9%A5%BC%E5%9B%BE-%E7%8E%AF%E5%BD%A2%E5%9B%BE/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/09/09/%E7%A6%BB%E7%BA%BF%E5%AD%98%E5%82%A8/</loc>
+    <loc>http://blob.mvvm.xin/2020/09/09/%E7%A6%BB%E7%BA%BF%E5%AD%98%E5%82%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/06/17/%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8%E5%88%9D%E4%BD%93%E9%AA%8C-%E4%BA%8B%E4%BB%B6%E7%82%B9%E5%87%BB/</loc>
+    <loc>http://blob.mvvm.xin/2022/06/17/%E6%97%A0%E5%A4%B4%E6%B5%8F%E8%A7%88%E5%99%A8%E5%88%9D%E4%BD%93%E9%AA%8C-%E4%BA%8B%E4%BB%B6%E7%82%B9%E5%87%BB/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/03/18/%E6%B5%85%E6%9E%90css%E8%AE%A1%E6%95%B0%E5%99%A8/</loc>
+    <loc>http://blob.mvvm.xin/2024/03/18/%E6%B5%85%E6%9E%90css%E8%AE%A1%E6%95%B0%E5%99%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/04/18/%E6%96%87%E4%BB%B6url%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2file%E5%AF%B9%E8%B1%A1/</loc>
+    <loc>http://blob.mvvm.xin/2022/04/18/%E6%96%87%E4%BB%B6url%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2file%E5%AF%B9%E8%B1%A1/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/05/15/%E6%83%B3%E5%BC%80%E5%8F%91%E8%BF%99%E6%A0%B7%E4%B8%80%E4%B8%AAnpm%E5%8C%85%EF%BC%8C%E4%BB%8Eclass%E7%94%9F%E6%88%90css/</loc>
+    <loc>http://blob.mvvm.xin/2024/05/15/%E6%83%B3%E5%BC%80%E5%8F%91%E8%BF%99%E6%A0%B7%E4%B8%80%E4%B8%AAnpm%E5%8C%85%EF%BC%8C%E4%BB%8Eclass%E7%94%9F%E6%88%90css/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/06/17/%E5%9C%A8vue%E4%B8%AD%E5%AF%BC%E5%87%BAexcel%E5%A4%9Asheet%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <loc>http://blob.mvvm.xin/2023/06/17/%E5%9C%A8vue%E4%B8%AD%E5%AF%BC%E5%87%BAexcel%E5%A4%9Asheet%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/07/26/%E5%AE%89%E8%A3%85node%EF%BC%8Cnpm%E6%80%BB%E6%98%AF%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
+    <loc>http://blob.mvvm.xin/2021/07/26/%E5%AE%89%E8%A3%85node%EF%BC%8Cnpm%E6%80%BB%E6%98%AF%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/02/22/%E5%AE%8F%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%BE%AE%E4%BB%BB%E5%8A%A1/</loc>
+    <loc>http://blob.mvvm.xin/2021/02/22/%E5%AE%8F%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%BE%AE%E4%BB%BB%E5%8A%A1/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/08/27/%E5%AE%9E%E7%8E%B0element-plus%E8%A1%A8%E6%A0%BC%E8%87%AA%E5%8A%A8%E6%BB%9A%E5%8A%A8/</loc>
+    <loc>http://blob.mvvm.xin/2021/08/27/%E5%AE%9E%E7%8E%B0element-plus%E8%A1%A8%E6%A0%BC%E8%87%AA%E5%8A%A8%E6%BB%9A%E5%8A%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/01/22/%E5%AF%B9%E8%B1%A1%E6%94%AF%E6%8C%81for-of%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://blob.mvvm.xin/2021/01/22/%E5%AF%B9%E8%B1%A1%E6%94%AF%E6%8C%81for-of%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/01/12/%E5%9B%9E%E6%B5%81%E4%B8%8E%E9%87%8D%E7%BB%98/</loc>
+    <loc>http://blob.mvvm.xin/2021/01/12/%E5%9B%9E%E6%B5%81%E4%B8%8E%E9%87%8D%E7%BB%98/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/04/20/vue%E8%B7%AF%E7%94%B1%E6%8B%A6%E6%88%AA/</loc>
+    <loc>http://blob.mvvm.xin/2020/04/20/vue%E8%B7%AF%E7%94%B1%E6%8B%A6%E6%88%AA/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/09/29/%E4%BC%98%E9%9B%85%E9%99%8D%E7%BA%A7%E5%92%8C%E6%B8%90%E8%BF%9B%E5%A2%9E%E5%BC%BA/</loc>
+    <loc>http://blob.mvvm.xin/2020/09/29/%E4%BC%98%E9%9B%85%E9%99%8D%E7%BA%A7%E5%92%8C%E6%B8%90%E8%BF%9B%E5%A2%9E%E5%BC%BA/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/07/18/vuex%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2020/07/18/vuex%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/06/17/vue%E5%AF%BC%E5%87%BAPDF%E6%96%87%E4%BB%B6/</loc>
+    <loc>http://blob.mvvm.xin/2021/06/17/vue%E5%AF%BC%E5%87%BAPDF%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/06/08/vuex%E4%B8%ADmutations%E4%B8%8Eactions%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>http://blob.mvvm.xin/2020/06/08/vuex%E4%B8%ADmutations%E4%B8%8Eactions%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/05/20/vuex%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2020/05/20/vuex%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/07/19/vue3%E4%B8%AD%E7%9A%84defineCustomElement%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2022/07/19/vue3%E4%B8%AD%E7%9A%84defineCustomElement%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/08/17/vue3%E4%B8%AD%E7%AE%80%E5%8D%95%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85element-table/</loc>
+    <loc>http://blob.mvvm.xin/2022/08/17/vue3%E4%B8%AD%E7%AE%80%E5%8D%95%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85element-table/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/06/17/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8keepAlive%E7%BC%93%E5%AD%98%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88%E7%9A%84%E6%83%85%E5%86%B5%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://blob.mvvm.xin/2024/06/17/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8keepAlive%E7%BC%93%E5%AD%98%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88%E7%9A%84%E6%83%85%E5%86%B5%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/06/20/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%92%8C%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6/</loc>
+    <loc>http://blob.mvvm.xin/2024/06/20/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%92%8C%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/01/17/vue2%E5%92%8Cvue3%E9%80%9A%E8%BF%87%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6/</loc>
+    <loc>http://blob.mvvm.xin/2022/01/17/vue2%E5%92%8Cvue3%E9%80%9A%E8%BF%87%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/01/17/vue3-is%E6%88%91%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
+    <loc>http://blob.mvvm.xin/2023/01/17/vue3-is%E6%88%91%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/05/29/vue3-%E5%9F%BA%E4%BA%8Eelement-plus%E7%9A%84%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E5%B0%81%E8%A3%85/</loc>
+    <loc>http://blob.mvvm.xin/2024/05/29/vue3-%E5%9F%BA%E4%BA%8Eelement-plus%E7%9A%84%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E5%B0%81%E8%A3%85/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/02/26/vscode%E5%81%B6%E5%B0%94%E7%A2%B0%E5%88%B0%E7%AB%AF%E5%8F%A3%E8%A2%AB%E5%8D%A0%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <loc>http://blob.mvvm.xin/2024/02/26/vscode%E5%81%B6%E5%B0%94%E7%A2%B0%E5%88%B0%E7%AB%AF%E5%8F%A3%E8%A2%AB%E5%8D%A0%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -254,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/03/18/vue-router%E7%9A%84%E6%87%92%E5%8A%A0%E8%BD%BD/</loc>
+    <loc>http://blob.mvvm.xin/2020/03/18/vue-router%E7%9A%84%E6%87%92%E5%8A%A0%E8%BD%BD/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/05/22/ts%E4%B8%ADstring%E7%B1%BB%E5%9E%8B%E9%97%AE%E9%A2%98/</loc>
+    <loc>http://blob.mvvm.xin/2022/05/22/ts%E4%B8%ADstring%E7%B1%BB%E5%9E%8B%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/12/17/uniapp%E4%B8%AD%E4%BF%AE%E6%94%B9showModal%E7%9A%84%E6%A0%B7%E5%BC%8F/</loc>
+    <loc>http://blob.mvvm.xin/2022/12/17/uniapp%E4%B8%AD%E4%BF%AE%E6%94%B9showModal%E7%9A%84%E6%A0%B7%E5%BC%8F/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -281,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/04/10/this%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E5%B0%8F%E9%A2%98/</loc>
+    <loc>http://blob.mvvm.xin/2021/04/10/this%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E5%B0%8F%E9%A2%98/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/10/12/scss%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2021/10/12/scss%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/12/30/scss%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/</loc>
+    <loc>http://blob.mvvm.xin/2021/12/30/scss%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/11/17/sheetJs%E5%AF%BC%E5%87%BAexcel%20%E4%B8%80/</loc>
+    <loc>http://blob.mvvm.xin/2021/11/17/sheetJs%E5%AF%BC%E5%87%BAexcel%20%E4%B8%80/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/07/17/reduce%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
+    <loc>http://blob.mvvm.xin/2021/07/17/reduce%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/08/19/script%E7%9A%84defer%E5%92%8Casync%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>http://blob.mvvm.xin/2020/08/19/script%E7%9A%84defer%E5%92%8Casync%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/12/15/node-express%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blob.mvvm.xin/2020/12/15/node-express%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/05/09/js%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6/</loc>
+    <loc>http://blob.mvvm.xin/2023/05/09/js%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/12/17/js-%E4%B8%8A%E4%BC%A0%E8%A7%86%E9%A2%91%EF%BC%8C%E6%88%AA%E5%8F%96%E6%9F%90%E4%B8%80%E5%B8%A7%E4%BD%9C%E4%B8%BA%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2/</loc>
+    <loc>http://blob.mvvm.xin/2023/12/17/js-%E4%B8%8A%E4%BC%A0%E8%A7%86%E9%A2%91%EF%BC%8C%E6%88%AA%E5%8F%96%E6%9F%90%E4%B8%80%E5%B8%A7%E4%BD%9C%E4%B8%BA%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -362,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/10/19/js%E5%88%A4%E6%96%AD%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
+    <loc>http://blob.mvvm.xin/2020/10/19/js%E5%88%A4%E6%96%AD%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -371,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/09/26/js%E5%90%91%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E7%89%B9%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%B7%BB%E5%8A%A0%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84/</loc>
+    <loc>http://blob.mvvm.xin/2021/09/26/js%E5%90%91%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E7%89%B9%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%B7%BB%E5%8A%A0%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/07/18/js-createRange%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%9C%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2024/07/18/js-createRange%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%9C%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/08/27/includes%E5%92%8CSet%E6%96%B9%E6%B3%95%E5%88%A4%E6%96%AD%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%85%83%E7%B4%A0/</loc>
+    <loc>http://blob.mvvm.xin/2024/08/27/includes%E5%92%8CSet%E6%96%B9%E6%B3%95%E5%88%A4%E6%96%AD%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%85%83%E7%B4%A0/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/08/14/input%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F%E9%99%90%E5%88%B6/</loc>
+    <loc>http://blob.mvvm.xin/2021/08/14/input%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F%E9%99%90%E5%88%B6/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -407,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/06/28/for%E5%BE%AA%E7%8E%AF%E5%86%85%E9%83%A8%E4%BD%BF%E7%94%A8splice/</loc>
+    <loc>http://blob.mvvm.xin/2021/06/28/for%E5%BE%AA%E7%8E%AF%E5%86%85%E9%83%A8%E4%BD%BF%E7%94%A8splice/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/07/29/get%E8%AF%B7%E6%B1%82%E5%92%8Cpost%E8%AF%B7%E6%B1%82/</loc>
+    <loc>http://blob.mvvm.xin/2020/07/29/get%E8%AF%B7%E6%B1%82%E5%92%8Cpost%E8%AF%B7%E6%B1%82/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -425,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/03/08/export%E4%B8%8Eexport-default/</loc>
+    <loc>http://blob.mvvm.xin/2020/03/08/export%E4%B8%8Eexport-default/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -434,7 +434,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/01/12/dialog%E7%BB%84%E4%BB%B6%E5%9C%A8vue3%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2024/01/12/dialog%E7%BB%84%E4%BB%B6%E5%9C%A8vue3%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/09/13/canvas%E7%BB%98%E5%9B%BE/</loc>
+    <loc>http://blob.mvvm.xin/2021/09/13/canvas%E7%BB%98%E5%9B%BE/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -452,7 +452,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/03/12/css-%E8%BE%B9%E6%A1%86%E5%8A%A8%E7%94%BB/</loc>
+    <loc>http://blob.mvvm.xin/2023/03/12/css-%E8%BE%B9%E6%A1%86%E5%8A%A8%E7%94%BB/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -461,7 +461,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2024/08/29/css-grid%E5%B8%83%E5%B1%80%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E8%A1%A8%E6%A0%BC/</loc>
+    <loc>http://blob.mvvm.xin/2024/08/29/css-grid%E5%B8%83%E5%B1%80%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E8%A1%A8%E6%A0%BC/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/11/09/call-apply-bind%E6%94%B9%E5%8F%98this%E6%8C%87%E5%90%91/</loc>
+    <loc>http://blob.mvvm.xin/2020/11/09/call-apply-bind%E6%94%B9%E5%8F%98this%E6%8C%87%E5%90%91/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/11/29/call-apply-bind%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</loc>
+    <loc>http://blob.mvvm.xin/2020/11/29/call-apply-bind%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -488,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2023/10/17/TS%E6%B3%9B%E5%9E%8B%E7%B2%97%E6%B5%85%E7%90%86%E8%A7%A3%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    <loc>http://blob.mvvm.xin/2023/10/17/TS%E6%B3%9B%E5%9E%8B%E7%B2%97%E6%B5%85%E7%90%86%E8%A7%A3%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -497,7 +497,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/03/17/Pinia%E7%9A%84reset%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://blob.mvvm.xin/2022/03/17/Pinia%E7%9A%84reset%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/03/19/Promise-all%E4%B8%8EPromise-race/</loc>
+    <loc>http://blob.mvvm.xin/2021/03/19/Promise-all%E4%B8%8EPromise-race/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -515,7 +515,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2022/02/23/Ant-Design-Vue-%E5%AE%9A%E5%88%B6%E4%B8%BB%E9%A2%98/</loc>
+    <loc>http://blob.mvvm.xin/2022/02/23/Ant-Design-Vue-%E5%AE%9A%E5%88%B6%E4%B8%BB%E9%A2%98/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -524,7 +524,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/05/28/egg-js%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2021/05/28/egg-js%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2025-02-17</lastmod>
     
@@ -533,7 +533,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/05/27/ssl%E8%AF%81%E4%B9%A6%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2019/05/27/ssl%E8%AF%81%E4%B9%A6%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -542,7 +542,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/05/27/ssl%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</loc>
+    <loc>http://blob.mvvm.xin/2019/05/27/ssl%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -551,7 +551,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/12/13/Set%E5%92%8CMap/</loc>
+    <loc>http://blob.mvvm.xin/2019/12/13/Set%E5%92%8CMap/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -560,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/06/21/question/</loc>
+    <loc>http://blob.mvvm.xin/2019/06/21/question/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2021/04/29/Python%E4%B9%8B%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</loc>
+    <loc>http://blob.mvvm.xin/2021/04/29/Python%E4%B9%8B%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -578,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/06/04/python%E4%B9%8Bxpath/</loc>
+    <loc>http://blob.mvvm.xin/2019/06/04/python%E4%B9%8Bxpath/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -587,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/05/19/PS%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8E%92%E7%89%88/</loc>
+    <loc>http://blob.mvvm.xin/2020/05/19/PS%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8E%92%E7%89%88/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -596,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/11/03/Object-defineProperty/</loc>
+    <loc>http://blob.mvvm.xin/2019/11/03/Object-defineProperty/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/04/16/markdown/</loc>
+    <loc>http://blob.mvvm.xin/2019/04/16/markdown/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -614,7 +614,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/06/12/linux%E4%B9%8B%E5%B8%B8%E7%94%A8%E7%9B%AE%E5%BD%95%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://blob.mvvm.xin/2019/06/12/linux%E4%B9%8B%E5%B8%B8%E7%94%A8%E7%9B%AE%E5%BD%95%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -623,7 +623,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/10/06/jq%E6%8F%92%E4%BB%B6%E6%89%A9%E5%B1%95/</loc>
+    <loc>http://blob.mvvm.xin/2019/10/06/jq%E6%8F%92%E4%BB%B6%E6%89%A9%E5%B1%95/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -632,7 +632,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/05/10/http-server%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2019/05/10/http-server%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -641,7 +641,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/08/11/gulp4%E4%B8%8Egulp3/</loc>
+    <loc>http://blob.mvvm.xin/2019/08/11/gulp4%E4%B8%8Egulp3/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -650,7 +650,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/04/15/git/</loc>
+    <loc>http://blob.mvvm.xin/2019/04/15/git/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -659,7 +659,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/05/13/Fiddler%E5%89%8D%E7%AB%AF%E5%A6%99%E7%94%A8/</loc>
+    <loc>http://blob.mvvm.xin/2019/05/13/Fiddler%E5%89%8D%E7%AB%AF%E5%A6%99%E7%94%A8/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -668,7 +668,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/07/28/exports%E4%B8%8Emodule-exports/</loc>
+    <loc>http://blob.mvvm.xin/2019/07/28/exports%E4%B8%8Emodule-exports/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -677,7 +677,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/02/16/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/</loc>
+    <loc>http://blob.mvvm.xin/2020/02/16/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -686,7 +686,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2020/01/25/%E8%99%9A%E6%8B%9Fdom/</loc>
+    <loc>http://blob.mvvm.xin/2020/01/25/%E8%99%9A%E6%8B%9Fdom/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -695,7 +695,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/12/23/%E6%95%B0%E6%8D%AE%E5%8A%AB%E6%8C%81/</loc>
+    <loc>http://blob.mvvm.xin/2019/12/23/%E6%95%B0%E6%8D%AE%E5%8A%AB%E6%8C%81/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -704,7 +704,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/11/04/%E5%8F%AF%E6%9E%9A%E4%B8%BE%E5%B1%9E%E6%80%A7/</loc>
+    <loc>http://blob.mvvm.xin/2019/11/04/%E5%8F%AF%E6%9E%9A%E4%B8%BE%E5%B1%9E%E6%80%A7/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -713,7 +713,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/08/22/%E5%87%BD%E6%95%B0%E8%8A%82%E6%B5%81/</loc>
+    <loc>http://blob.mvvm.xin/2019/08/22/%E5%87%BD%E6%95%B0%E8%8A%82%E6%B5%81/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -722,7 +722,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/06/19/tomcat/</loc>
+    <loc>http://blob.mvvm.xin/2019/06/19/tomcat/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -731,7 +731,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/09/12/async%E5%92%8Cawait%E5%AE%9E%E4%BE%8B/</loc>
+    <loc>http://blob.mvvm.xin/2019/09/12/async%E5%92%8Cawait%E5%AE%9E%E4%BE%8B/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -740,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/04/22/190422-PHP/</loc>
+    <loc>http://blob.mvvm.xin/2019/04/22/190422-PHP/</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -749,7 +749,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/07/16/js%E6%AD%A3%E5%88%99/</loc>
+    <loc>http://blob.mvvm.xin/2019/07/16/js%E6%AD%A3%E5%88%99/</loc>
     
     <lastmod>2021-06-28</lastmod>
     
@@ -758,7 +758,7 @@
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/2019/06/01/hexo/</loc>
+    <loc>http://blob.mvvm.xin/2019/06/01/hexo/</loc>
     
     <lastmod>2021-06-28</lastmod>
     
@@ -768,7 +768,7 @@
   
 
   <url>
-    <loc>https://blob.mvvm.xin/</loc>
+    <loc>http://blob.mvvm.xin/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -776,364 +776,364 @@
 
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/php/</loc>
+    <loc>http://blob.mvvm.xin/tags/php/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/vue3/</loc>
+    <loc>http://blob.mvvm.xin/tags/vue3/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/js/</loc>
+    <loc>http://blob.mvvm.xin/tags/js/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E6%8A%93%E5%8C%85/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E6%8A%93%E5%8C%85/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E8%B0%83%E8%AF%95/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E8%B0%83%E8%AF%95/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/fiddler/</loc>
+    <loc>http://blob.mvvm.xin/tags/fiddler/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/PS/</loc>
+    <loc>http://blob.mvvm.xin/tags/PS/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/js%E6%95%B0%E6%8D%AE%E6%8B%A6%E6%88%AA/</loc>
+    <loc>http://blob.mvvm.xin/tags/js%E6%95%B0%E6%8D%AE%E6%8B%A6%E6%88%AA/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/es6/</loc>
+    <loc>http://blob.mvvm.xin/tags/es6/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/promise/</loc>
+    <loc>http://blob.mvvm.xin/tags/promise/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/python/</loc>
+    <loc>http://blob.mvvm.xin/tags/python/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/ts/</loc>
+    <loc>http://blob.mvvm.xin/tags/ts/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/async/</loc>
+    <loc>http://blob.mvvm.xin/tags/async/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/await/</loc>
+    <loc>http://blob.mvvm.xin/tags/await/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/this/</loc>
+    <loc>http://blob.mvvm.xin/tags/this/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/call/</loc>
+    <loc>http://blob.mvvm.xin/tags/call/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/apply/</loc>
+    <loc>http://blob.mvvm.xin/tags/apply/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/bind/</loc>
+    <loc>http://blob.mvvm.xin/tags/bind/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/uniapp/</loc>
+    <loc>http://blob.mvvm.xin/tags/uniapp/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/canvas/</loc>
+    <loc>http://blob.mvvm.xin/tags/canvas/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/css/</loc>
+    <loc>http://blob.mvvm.xin/tags/css/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/grid/</loc>
+    <loc>http://blob.mvvm.xin/tags/grid/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/node/</loc>
+    <loc>http://blob.mvvm.xin/tags/node/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/get/</loc>
+    <loc>http://blob.mvvm.xin/tags/get/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/post/</loc>
+    <loc>http://blob.mvvm.xin/tags/post/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/git/</loc>
+    <loc>http://blob.mvvm.xin/tags/git/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/gulp/</loc>
+    <loc>http://blob.mvvm.xin/tags/gulp/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E6%9C%AC%E5%9C%B0%E8%AE%BF%E9%97%AE/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E6%9C%AC%E5%9C%B0%E8%AE%BF%E9%97%AE/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/vue/</loc>
+    <loc>http://blob.mvvm.xin/tags/vue/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/jq/</loc>
+    <loc>http://blob.mvvm.xin/tags/jq/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/linux/</loc>
+    <loc>http://blob.mvvm.xin/tags/linux/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/Markdown/</loc>
+    <loc>http://blob.mvvm.xin/tags/Markdown/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/xpath/</loc>
+    <loc>http://blob.mvvm.xin/tags/xpath/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/express/</loc>
+    <loc>http://blob.mvvm.xin/tags/express/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/html/</loc>
+    <loc>http://blob.mvvm.xin/tags/html/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/script/</loc>
+    <loc>http://blob.mvvm.xin/tags/script/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/defer/</loc>
+    <loc>http://blob.mvvm.xin/tags/defer/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/scss/</loc>
+    <loc>http://blob.mvvm.xin/tags/scss/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/sheetjs/</loc>
+    <loc>http://blob.mvvm.xin/tags/sheetjs/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/ssl/</loc>
+    <loc>http://blob.mvvm.xin/tags/ssl/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blob.mvvm.xin/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/nginx/</loc>
+    <loc>http://blob.mvvm.xin/tags/nginx/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/java/</loc>
+    <loc>http://blob.mvvm.xin/tags/java/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/tomcat/</loc>
+    <loc>http://blob.mvvm.xin/tags/tomcat/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/vue2/</loc>
+    <loc>http://blob.mvvm.xin/tags/vue2/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/vuex/</loc>
+    <loc>http://blob.mvvm.xin/tags/vuex/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/npm/</loc>
+    <loc>http://blob.mvvm.xin/tags/npm/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/manifest/</loc>
+    <loc>http://blob.mvvm.xin/tags/manifest/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/dom/</loc>
+    <loc>http://blob.mvvm.xin/tags/dom/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/tags/echarts/</loc>
+    <loc>http://blob.mvvm.xin/tags/echarts/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1142,217 +1142,217 @@
 
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/php/</loc>
+    <loc>http://blob.mvvm.xin/categories/php/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/vue3/</loc>
+    <loc>http://blob.mvvm.xin/categories/vue3/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/ps/</loc>
+    <loc>http://blob.mvvm.xin/categories/ps/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/python/</loc>
+    <loc>http://blob.mvvm.xin/categories/python/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/es6/</loc>
+    <loc>http://blob.mvvm.xin/categories/es6/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/ts/</loc>
+    <loc>http://blob.mvvm.xin/categories/ts/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/es6/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/es6/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/vue/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/vue/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/uniapp/</loc>
+    <loc>http://blob.mvvm.xin/categories/uniapp/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/css/</loc>
+    <loc>http://blob.mvvm.xin/categories/css/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/node/</loc>
+    <loc>http://blob.mvvm.xin/categories/node/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/git/</loc>
+    <loc>http://blob.mvvm.xin/categories/git/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/gulp/</loc>
+    <loc>http://blob.mvvm.xin/categories/gulp/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/uniapp/canvas/</loc>
+    <loc>http://blob.mvvm.xin/categories/uniapp/canvas/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/jq/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/jq/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/es6/promise/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/es6/promise/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/css/grid/</loc>
+    <loc>http://blob.mvvm.xin/categories/css/grid/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/linux/</loc>
+    <loc>http://blob.mvvm.xin/categories/linux/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/Markdown/</loc>
+    <loc>http://blob.mvvm.xin/categories/Markdown/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/node/express/</loc>
+    <loc>http://blob.mvvm.xin/categories/node/express/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/css/scss/</loc>
+    <loc>http://blob.mvvm.xin/categories/css/scss/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/vue/sheetjs/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/vue/sheetjs/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/ssl/</loc>
+    <loc>http://blob.mvvm.xin/categories/ssl/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/java/</loc>
+    <loc>http://blob.mvvm.xin/categories/java/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/vue2/</loc>
+    <loc>http://blob.mvvm.xin/categories/vue2/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/vue3/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/vue3/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/node/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/node/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/vue2/vue3/</loc>
+    <loc>http://blob.mvvm.xin/categories/vue2/vue3/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/echarts/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/echarts/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blob.mvvm.xin/categories/js/node/npm/</loc>
+    <loc>http://blob.mvvm.xin/categories/js/node/npm/</loc>
     <lastmod>2025-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

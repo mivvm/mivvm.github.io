@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="vue3," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="起因最近有个需求是，页面内容由后端返回可以展示哪些模块，以及这些模块的顺序，又到组件很多，所以想到了动态组件和异步组件的结合使用。当然后端返回的仅仅是这些模块的名字（即组件的名字）和顺序。 前期准备1.将所有的组件放到view&#x2F;template下面，如demo1&#x2F;index.vue、demo2&#x2F;index.vue这种。2.要求后端返回的数据为demo1、demo2等。 正文开始： 动态组件动态组件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue3中使用动态组件和异步组件">
+<meta property="og:url" content="http://www.mvvm.xin/2024/06/20/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%92%8C%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6/index.html">
+<meta property="og:site_name" content="明未为洺">
+<meta property="og:description" content="起因最近有个需求是，页面内容由后端返回可以展示哪些模块，以及这些模块的顺序，又到组件很多，所以想到了动态组件和异步组件的结合使用。当然后端返回的仅仅是这些模块的名字（即组件的名字）和顺序。 前期准备1.将所有的组件放到view&#x2F;template下面，如demo1&#x2F;index.vue、demo2&#x2F;index.vue这种。2.要求后端返回的数据为demo1、demo2等。 正文开始： 动态组件动态组件">
+<meta property="og:locale">
+<meta property="article:published_time" content="2024-06-20T05:18:57.000Z">
+<meta property="article:modified_time" content="2025-02-17T05:19:31.429Z">
+<meta property="article:author" content="明未为洺">
+<meta property="article:tag" content="vue3">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.mvvm.xin/2024/06/20/vue3中使用动态组件和异步组件/"/>
+
+
+
+
+
+  <title>vue3中使用动态组件和异步组件 | 明未为洺</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">明未为洺</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.mvvm.xin/2024/06/20/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%92%8C%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="明未为洺">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">vue3中使用动态组件和异步组件</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-06-20T13:18:57+08:00">
+                2024-06-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/js/" itemprop="url" rel="index">
+                    <span itemprop="name">js</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/js/vue3/" itemprop="url" rel="index">
+                    <span itemprop="name">vue3</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>最近有个需求是，页面内容由后端返回可以展示哪些模块，以及这些模块的顺序，又到组件很多，所以想到了<code>动态组件</code>和<code>异步组件</code>的结合使用。<br>当然后端返回的仅仅是这些模块的名字（即组件的名字）和顺序。</p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>1.将所有的组件放到<code>view/template</code>下面，如<code>demo1/index.vue</code>、<code>demo2/index.vue</code>这种。<br>2.要求后端返回的数据为<code>demo1</code>、<code>demo2</code>等。</p>
+<p>正文开始：</p>
+<h3 id="动态组件"><a href="#动态组件" class="headerlink" title="动态组件"></a>动态组件</h3><p>动态组件平常用的比较多，这里就不详细介绍了，有一个点需要注意下：<br>1.动态组件的<code>is</code>可以是字符串，也可以是组件，但是在setup中，也就是<code>组合式api</code>中，类型一定要写成组件，如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup&gt;</span><br><span class="line"><span class="keyword">import</span> demo1 <span class="keyword">from</span> <span class="string">&quot;@/views/home/a.vue&quot;</span></span><br><span class="line"><span class="keyword">import</span> demo2 <span class="keyword">from</span> <span class="string">&quot;@/views/home/b.vue&quot;</span></span><br><span class="line"><span class="keyword">const</span> nowComponent = <span class="title function_">shallowRef</span>(demo1)</span><br><span class="line"><span class="comment">//这里一定要是组件类型，不能是字符串！</span></span><br><span class="line"><span class="comment">//这里建议用shallowRef，因为用ref在深度监听的情况下，vue会有警告，在这里就不多介绍了</span></span><br><span class="line">&lt;/script&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">	<span class="tag">&lt;<span class="name">component</span> <span class="attr">:is</span>=<span class="string">&quot;nowComponent&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">component</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>当然如果是<code>选项式Api</code>就不用在意了。</p>
+<h3 id="异步组件"><a href="#异步组件" class="headerlink" title="异步组件"></a>异步组件</h3><p>正常使用异步组件的时候，会这样使用：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">ComponentName</span> = <span class="title function_">defineAsyncComponent</span>(<span class="function">() =&gt;</span> <span class="keyword">import</span>(path))</span><br></pre></td></tr></table></figure>
+<p>在页面中可以用两种使用方法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">	<span class="comment">//1.直接使用</span></span><br><span class="line">	<span class="language-xml"><span class="tag">&lt;<span class="name">component-name</span> /&gt;</span></span> </span><br><span class="line">	or</span><br><span class="line">	&lt;<span class="title class_">ComponentName</span> /&gt;</span><br><span class="line">	<span class="comment">//2.通过component动态组件</span></span><br><span class="line">	<span class="language-xml"><span class="tag">&lt;<span class="name">component</span> <span class="attr">:is</span>=<span class="string">&quot;ComponentName&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">component</span>&gt;</span></span></span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure>
+<p>按照我们的需求，根据名字加载组件，然后对<code>defineAsyncComponent</code>进行一个封装：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">getTemplate</span>(<span class="params">path: string</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="title function_">defineAsyncComponent</span>(<span class="function">() =&gt;</span> <span class="keyword">import</span>(path))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>紧接着需要查找所有的组件，匹配后端返回的组件进行渲染。</p>
+<h3 id="读取组件列表"><a href="#读取组件列表" class="headerlink" title="读取组件列表"></a>读取组件列表</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; defineAsyncComponent &#125; <span class="keyword">from</span> <span class="string">&quot;vue&quot;</span></span><br><span class="line"><span class="comment">//获取所有的组件路径</span></span><br><span class="line"><span class="keyword">let</span> modules = <span class="keyword">import</span>.<span class="property">meta</span>.<span class="title function_">glob</span>([<span class="string">&#x27;@/views/template/**/*.vue&#x27;</span>])</span><br><span class="line">interface <span class="title class_">ITemplate</span> &#123;</span><br><span class="line">  <span class="attr">name</span>: string</span><br><span class="line">  <span class="attr">path</span>: string</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> <span class="attr">templateArr</span>:<span class="title class_">ITemplate</span>[] = []</span><br><span class="line"><span class="comment">//重构成以组件名字和路径的数组</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> x <span class="keyword">in</span> modules) &#123;</span><br><span class="line">  <span class="keyword">const</span> regex = <span class="regexp">/src\/views\/template\/(\S*)\/(\S*).vue/</span>; <span class="comment">// 要查找的字符串</span></span><br><span class="line">  <span class="keyword">let</span> arr = regex.<span class="title function_">exec</span>(x)!</span><br><span class="line">  <span class="keyword">if</span>(arr) &#123;</span><br><span class="line">    templateArr.<span class="title function_">push</span>(&#123;</span><br><span class="line">      <span class="attr">name</span>: arr[<span class="number">1</span>],</span><br><span class="line">      <span class="comment">// path: x 有改动</span></span><br><span class="line">      <span class="attr">path</span>: modules[x]</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//在上面的基础上对此方法进行改造</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getTemplate</span>(<span class="params">str: string</span>) &#123;</span><br><span class="line">  <span class="comment">//根据名字匹配路径</span></span><br><span class="line">  <span class="keyword">let</span> obj = templateArr.<span class="title function_">find</span>(<span class="function"><span class="params">item</span> =&gt;</span> str == item.<span class="property">name</span>)!</span><br><span class="line">  <span class="comment">//这种写法打包会有问题，import里面的路径不能写成变量，可以写成字符串拼接的格式`../template/$&#123;name&#125;/index.vue`</span></span><br><span class="line">  <span class="comment">// return defineAsyncComponent(() =&gt; import(obj.path))</span></span><br><span class="line">  <span class="keyword">return</span> <span class="title function_">defineAsyncComponent</span>(obj.<span class="property">path</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> getTemplate</span><br></pre></td></tr></table></figure>
+<p>到这里各个准备工作已经差不多了，我们准备一个数组作为后端返回的数据：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup&gt;</span><br><span class="line"><span class="comment">//引入上面封装好的异步组件方法</span></span><br><span class="line"><span class="keyword">import</span> getTemplate <span class="keyword">from</span> <span class="string">&quot;getTemplate.js&quot;</span></span><br><span class="line"><span class="keyword">const</span> list = [</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="attr">name</span>: <span class="string">&#x27;demo1&#x27;</span>,</span><br><span class="line">		<span class="attr">sortNum</span>: <span class="number">1</span>,</span><br><span class="line">	&#125;,</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="attr">name</span>: <span class="string">&#x27;demo2&#x27;</span>,</span><br><span class="line">		<span class="attr">sortNum</span>: <span class="number">2</span>,</span><br><span class="line">	&#125;,</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="attr">name</span>: <span class="string">&#x27;demo3&#x27;</span>,</span><br><span class="line">		<span class="attr">sortNum</span>: <span class="number">3</span>,</span><br><span class="line">	&#125;</span><br><span class="line">]</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">	<span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">		<span class="tag">&lt;<span class="name">component</span> <span class="attr">v-for</span>=<span class="string">&quot;item in list&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;item.sortNum&quot;</span> <span class="attr">:is</span>=<span class="string">&quot;getTemplate(item.name)&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">component</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>本以为这样整个功能已经好了，在使用的过程中发现，当页面有元素发生变化的时候，如<code>v-if</code>等，就会导致所有的动态组件重新加载，这样肯定不行的。<br>最后也没找到原因，只是找到了一个解决方法，那就是将<code>动态组件</code>那一部分再放到一个组件中，然后主页面中加载这个组件就好了。<br>本期分享内容就结束了，欢迎大家指导，有更好的方案可以在评论区留言！</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/vue3/" rel="tag"># vue3</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2024/06/17/vue3%E4%B8%AD%E4%BD%BF%E7%94%A8keepAlive%E7%BC%93%E5%AD%98%E8%B7%AF%E7%94%B1%E7%BB%84%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88%E7%9A%84%E6%83%85%E5%86%B5%E8%AE%B0%E5%BD%95/" rel="next" title="vue3中使用keepAlive缓存路由组件不生效的情况记录">
+                <i class="fa fa-chevron-left"></i> vue3中使用keepAlive缓存路由组件不生效的情况记录
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2024/07/18/js-createRange%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%9C%E7%94%A8/" rel="prev" title="js-createRange方法的作用">
+                js-createRange方法的作用 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">83</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">31</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">52</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%B7%E5%9B%A0"><span class="nav-number">1.</span> <span class="nav-text">起因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="nav-number">2.</span> <span class="nav-text">前期准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6"><span class="nav-number">3.</span> <span class="nav-text">动态组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6"><span class="nav-number">4.</span> <span class="nav-text">异步组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%BB%E5%8F%96%E7%BB%84%E4%BB%B6%E5%88%97%E8%A1%A8"><span class="nav-number">5.</span> <span class="nav-text">读取组件列表</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">明未为洺</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
